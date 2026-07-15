@@ -6,6 +6,14 @@ I build reproducible evaluation, reliability, and automation tooling for Russian
 
 [One-page technical portfolio (PDF)](Absamad_Manturov_AI_Technical_Portfolio.pdf)
 
+[Targeted case: Procurement AI research plan (PDF)](Absamad_Manturov_Procurement_AI_Research_Plan.pdf)
+
+**Available for fixed-scope paid pilots:** [Telegram](https://t.me/Absamad_m) · [Gmail](mailto:absamad.manturov@gmail.com)
+
+- **Agent reliability preflight, 2–4 days:** 15–30 client-owned scenarios, raw traces and JUnit/JSON/Markdown report.
+- **Serving-correctness audit, 1–3 days:** raw-output audit, conservative normalization, sampling/token ablation and explicit stop criteria.
+- **Price/data reconciliation, 3–5 days:** 2–3 anonymized CSV/XLSX files, acceptance sample, review queue and auditable delivery.
+
 ## Current public work
 
 - [GigaChat Python SDK PR #117](https://github.com/ai-forever/gigachat/pull/117) — **open, awaiting maintainer review**; typed sync/async support for `POST /filter/check`; 490 tests, Ruff and mypy passed locally.
@@ -16,16 +24,6 @@ I build reproducible evaluation, reliability, and automation tooling for Russian
 - [ru-agent-eval-kit v0.1.1](https://github.com/Absamad-dew/ru-agent-eval-kit/releases/tag/v0.1.1) — 22 synthetic MCP security and reliability scenarios, raw traces, JSON/Markdown/JUnit exports, Ubuntu/Windows CI.
 - [price-intelligence-demo v0.1.1](https://github.com/Absamad-dew/price-intelligence-demo/releases/tag/v0.1.1) — deterministic CSV/XLSX normalization, matching, audit trail, quality gate, independently inspected Excel output, Ubuntu/Windows CI.
 
-## Available for short paid pilots
-
-I can start with a small, testable scope instead of a long integration project:
-
-- **Agent reliability preflight, 2–4 days:** 15–30 client-owned scenarios against a mock or staging endpoint; schema, permission, retry, idempotency and prompt-injection checks; raw traces plus JUnit/JSON/Markdown report.
-- **Serving-correctness audit, 1–3 days:** separate raw output, conservative normalization and semantic task score; token/sampling ablation; explicit stop criteria and negative results.
-- **Price/data reconciliation, 3–5 days:** 2–3 anonymized CSV/XLSX files, acceptance sample, confidence and manual-review queue, auditable Excel/CSV delivery.
-
-The first call is used to freeze the acceptance set, allowed environment and success metrics. No production security testing or external side effects without written scope.
-
 ## Useful collaboration scopes
 
 - Russian hardness and regression suites with fixed rubrics and reproducible model runs;
@@ -34,6 +32,8 @@ The first call is used to freeze the acceptance set, allowed environment and suc
 - narrow data-automation pilots with an acceptance dataset and measurable quality gates.
 
 All demo results are labeled as synthetic unless they come from a versioned live run. Security testing is performed only in an explicitly authorized scope.
+
+The first call freezes the acceptance set, allowed environment and success metrics. No production security testing or external side effects without written scope.
 
 ## Contact
 
