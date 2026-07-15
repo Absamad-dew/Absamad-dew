@@ -13,8 +13,8 @@ I build reproducible evaluation, reliability, and automation tooling for Russian
 - [Giga Agent PR #131](https://github.com/ai-forever/giga_agent/pull/131) — **open, mergeable clean**; converts an embedding deletion blocked by a RAG collection into an explicit `409 Conflict`, with 21 targeted tests and Ruff passing locally.
 - [Yandex AI Studio SDK PR #235](https://github.com/yandex-cloud/yandex-ai-studio-sdk/pull/235) — **open, awaiting maintainer review**; backward-compatible per-attempt retry timeout; 233 tests passed locally.
 - [ruagent-compat v0.2.0](https://github.com/Absamad-dew/ruagent-compat/releases/tag/v0.2.0) — 48 tests for provider-neutral agent contracts plus provenance-aware structured-output auditing; green Ubuntu/Windows CI.
-- [ru-agent-eval-kit](https://github.com/Absamad-dew/ru-agent-eval-kit) — 22 synthetic MCP security and reliability scenarios, raw traces, JSON/Markdown/JUnit exports, Ubuntu/Windows CI.
-- [price-intelligence-demo](https://github.com/Absamad-dew/price-intelligence-demo) — deterministic CSV/XLSX normalization, matching, audit trail, quality gate, independently inspected Excel output, Ubuntu/Windows CI.
+- [ru-agent-eval-kit v0.1.1](https://github.com/Absamad-dew/ru-agent-eval-kit/releases/tag/v0.1.1) — 22 synthetic MCP security and reliability scenarios, raw traces, JSON/Markdown/JUnit exports, Ubuntu/Windows CI.
+- [price-intelligence-demo v0.1.1](https://github.com/Absamad-dew/price-intelligence-demo/releases/tag/v0.1.1) — deterministic CSV/XLSX normalization, matching, audit trail, quality gate, independently inspected Excel output, Ubuntu/Windows CI.
 
 ## Available for short paid pilots
 
