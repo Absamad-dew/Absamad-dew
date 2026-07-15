@@ -6,9 +6,13 @@ I build reproducible evaluation, reliability, and automation tooling for Russian
 
 [One-page technical portfolio (PDF)](Absamad_Manturov_AI_Technical_Portfolio.pdf)
 
+[Русскоязычное резюме для проектных задач (PDF)](Absamad_Manturov_Project_AI_Python_Resume_RU.pdf)
+
 [Targeted case: Procurement AI research plan (PDF)](Absamad_Manturov_Procurement_AI_Research_Plan.pdf)
 
 **Available for fixed-scope paid pilots:** [Telegram](https://t.me/Absamad_m) · [Gmail](mailto:absamad.manturov@gmail.com)
+
+[Фиксированные проектные пакеты, сроки и стартовые цены](PROJECT_SERVICES_RU.md)
 
 - **Agent reliability preflight, 2–4 days:** 15–30 client-owned scenarios, raw traces and JUnit/JSON/Markdown report.
 - **Serving-correctness audit, 1–3 days:** raw-output audit, conservative normalization, sampling/token ablation and explicit stop criteria.
