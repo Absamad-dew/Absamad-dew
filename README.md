@@ -22,8 +22,9 @@ I build reproducible evaluation, reliability, and automation tooling for Russian
 
 ## Current public work
 
-The four demo repositories below are self-initiated, synthetic proof-of-work. They are not presented as paid client cases. Upstream PRs are open and are not presented as merged contributions.
+The demo repositories below are self-initiated, synthetic proof-of-work. They are not presented as paid client cases. Upstream PRs are open and are not presented as merged contributions.
 
+- [ru-hardness-30](https://github.com/Absamad-dew/ru-hardness-30) — 30 original Russian hardness cases, deterministic scorer, protocol audit and reproducible local baselines. In one controlled Ornith 1.0 9B setup, raising the output cap from 512 to 768 improved raw overall `0.4527 → 0.5481` and reduced `finish_reason=length` from `5/30` to `1/30`; the repository states the small-sample and transfer limits explicitly.
 - [agentic-service-desk-pilot](https://github.com/Absamad-dew/agentic-service-desk-pilot) — FastAPI + SQLite workflow with retrieval citations, a separate human-approval boundary, durable idempotency, audit traces, 10 tests and 8/8 deterministic acceptance cases. The bundled data and tickets are synthetic; no external CRM is contacted.
 - [GigaChat Python SDK PR #117](https://github.com/ai-forever/gigachat/pull/117) — **open, awaiting maintainer review**; typed sync/async support for `POST /filter/check`; 490 tests, Ruff and mypy passed locally.
 - [GigaChat Python SDK PR #118](https://github.com/ai-forever/gigachat/pull/118) — **open, awaiting maintainer review**; closes issue #79 with complete ContextVar/header mappings, lifecycle guidance, and an explicit boundary between SDK behavior and application tracing conventions.
