@@ -22,11 +22,12 @@ I build reproducible evaluation, reliability, and automation tooling for Russian
 
 ## Current public work
 
-The three demo repositories below are self-initiated, synthetic proof-of-work. They are not presented as paid client cases. Upstream PRs are open and are not presented as merged contributions.
+The four demo repositories below are self-initiated, synthetic proof-of-work. They are not presented as paid client cases. Upstream PRs are open and are not presented as merged contributions.
 
+- [agentic-service-desk-pilot](https://github.com/Absamad-dew/agentic-service-desk-pilot) — FastAPI + SQLite workflow with retrieval citations, a separate human-approval boundary, durable idempotency, audit traces, 10 tests and 8/8 deterministic acceptance cases. The bundled data and tickets are synthetic; no external CRM is contacted.
 - [GigaChat Python SDK PR #117](https://github.com/ai-forever/gigachat/pull/117) — **open, awaiting maintainer review**; typed sync/async support for `POST /filter/check`; 490 tests, Ruff and mypy passed locally.
 - [GigaChat Python SDK PR #118](https://github.com/ai-forever/gigachat/pull/118) — **open, awaiting maintainer review**; closes issue #79 with complete ContextVar/header mappings, lifecycle guidance, and an explicit boundary between SDK behavior and application tracing conventions.
-- [Giga Agent PR #131](https://github.com/ai-forever/giga_agent/pull/131) — **open, mergeable clean**; converts an embedding deletion blocked by a RAG collection into an explicit `409 Conflict`, with 21 targeted tests and Ruff passing locally.
+- [Giga Agent PR #131](https://github.com/ai-forever/giga_agent/pull/131) — **open, awaiting maintainer review**; converts an embedding deletion blocked by a RAG collection into an explicit `409 Conflict`, with 21 targeted tests and Ruff passing locally.
 - [Yandex AI Studio SDK PR #235](https://github.com/yandex-cloud/yandex-ai-studio-sdk/pull/235) — **open, awaiting maintainer review**; backward-compatible per-attempt retry timeout; 233 tests passed locally.
 - [ruagent-compat v0.2.0](https://github.com/Absamad-dew/ruagent-compat/releases/tag/v0.2.0) — 48 tests for provider-neutral agent contracts plus provenance-aware structured-output auditing; green Ubuntu/Windows CI.
 - [ru-agent-eval-kit v0.1.1](https://github.com/Absamad-dew/ru-agent-eval-kit/releases/tag/v0.1.1) — 22 synthetic MCP security and reliability scenarios, raw traces, JSON/Markdown/JUnit exports, Ubuntu/Windows CI.
