@@ -4,6 +4,8 @@ I build reproducible evaluation, reliability, and automation tooling for Russian
 
 Делаю воспроизводимые eval-наборы, инструменты надёжности AI-агентов и прикладную автоматизацию. Предпочитаю runnable proof-of-work, raw traces и измеримые критерии вместо неподтверждённых обещаний.
 
+[One-page technical portfolio (PDF)](Absamad_Manturov_AI_Technical_Portfolio.pdf)
+
 ## Current public work
 
 - [GigaChat Python SDK PR #117](https://github.com/ai-forever/gigachat/pull/117) — **open, awaiting maintainer review**; typed sync/async support for `POST /filter/check`; 490 tests, Ruff and mypy passed locally.
