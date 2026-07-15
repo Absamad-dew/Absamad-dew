@@ -18,7 +18,7 @@ I build reproducible evaluation, reliability, and automation tooling for Russian
 
 Чтобы зафиксировать scope, достаточно прислать цель, обезличенный пример входа и ограничение, которое нельзя нарушить. Секреты и необезличенные данные в переписке не принимаются.
 
-**Profile artifacts:** [technical portfolio (PDF)](Absamad_Manturov_AI_Technical_Portfolio.pdf) · [русскоязычное проектное резюме (PDF)](Absamad_Manturov_Project_AI_Python_Resume_RU.pdf) · [procurement AI research plan (PDF)](Absamad_Manturov_Procurement_AI_Research_Plan.pdf)
+**Profile artifacts:** [technical portfolio (PDF)](Absamad_Manturov_AI_Technical_Portfolio.pdf) · [русскоязычное проектное резюме (PDF)](Absamad_Manturov_Project_AI_Python_Resume_RU.pdf) · [резюме: AI и закупочные процессы (PDF)](Absamad_Manturov_Professionals4_Procurement_AI_Resume_RU.pdf) · [резюме: Junior Python (PDF)](Absamad_Manturov_ITK_Python_Resume_RU.pdf) · [procurement AI research plan (PDF)](Absamad_Manturov_Procurement_AI_Research_Plan.pdf)
 
 ## Current public work
 
