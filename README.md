@@ -14,6 +14,8 @@ I build reproducible evaluation, reliability, and automation tooling for Russian
 | **Price Reconciliation Pilot** | **39 000 ₽ · 5 days** | Up to three flat CSV/XLSX files, up to 300 rows, one catalog | Normalized data, review queue, quality metrics and Excel report; acceptance is checked on a frozen sample |
 | **Agent Reliability Preflight** | **29 000 ₽ · 3 days** + API costs | One agent version, one test environment, 20 agreed scenarios | 20 scenarios × 3 runs, raw traces, JUnit/JSON/Markdown and failure taxonomy |
 
+Lower-friction entry for a team that wants to verify the approach first: [one critical AI-agent scenario, 10–15 cases and a reproducible report in 48 hours for 9 000 ₽](https://github.com/Absamad-dew/ru-hardness-30/blob/main/PILOT_OFFER.md). This is a launch pilot, not a claim about past client pricing.
+
 [Все пять пакетов, границы и условия](PROJECT_SERVICES_RU.md) · [Критерии приёмки трёх стартовых пилотов](ACCEPTANCE_BRIEFS_RU.md) · [Реестр проверяемых доказательств](EVIDENCE.md)
 
 Чтобы зафиксировать scope, достаточно прислать цель, обезличенный пример входа и ограничение, которое нельзя нарушить. Секреты и необезличенные данные в переписке не принимаются.
