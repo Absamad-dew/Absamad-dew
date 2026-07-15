@@ -4,21 +4,25 @@ I build reproducible evaluation, reliability, and automation tooling for Russian
 
 Делаю воспроизводимые eval-наборы, инструменты надёжности AI-агентов и прикладную автоматизацию. Предпочитаю runnable proof-of-work, raw traces и измеримые критерии вместо неподтверждённых обещаний.
 
-[One-page technical portfolio (PDF)](Absamad_Manturov_AI_Technical_Portfolio.pdf)
-
-[Русскоязычное резюме для проектных задач (PDF)](Absamad_Manturov_Project_AI_Python_Resume_RU.pdf)
-
-[Targeted case: Procurement AI research plan (PDF)](Absamad_Manturov_Procurement_AI_Research_Plan.pdf)
-
 **Available for fixed-scope paid pilots:** [Telegram](https://t.me/Absamad_m) · [Gmail](mailto:absamad.manturov@gmail.com)
 
-[Фиксированные проектные пакеты, сроки и стартовые цены](PROJECT_SERVICES_RU.md)
+## Three paid starting scopes
 
-- **Agent reliability preflight, 2–4 days:** 15–30 client-owned scenarios, raw traces and JUnit/JSON/Markdown report.
-- **Serving-correctness audit, 1–3 days:** raw-output audit, conservative normalization, sampling/token ablation and explicit stop criteria.
-- **Price/data reconciliation, 3–5 days:** 2–3 anonymized CSV/XLSX files, acceptance sample, review queue and auditable delivery.
+| Scope | Fixed start | What you provide | Delivery and acceptance |
+|---|---:|---|---|
+| **AI / Automation Preflight** | **19 500 ₽ · 2 days** | Process description, constraints, 3–5 anonymized examples | AS-IS/TO-BE, bottleneck matrix and three pilot charters; each has a KPI, baseline, human gate and stop rule |
+| **Price Reconciliation Pilot** | **39 000 ₽ · 5 days** | Up to three flat CSV/XLSX files, up to 300 rows, one catalog | Normalized data, review queue, quality metrics and Excel report; acceptance is checked on a frozen sample |
+| **Agent Reliability Preflight** | **29 000 ₽ · 3 days** + API costs | One agent version, one test environment, 20 agreed scenarios | 20 scenarios × 3 runs, raw traces, JUnit/JSON/Markdown and failure taxonomy |
+
+[Все пять пакетов, границы и условия](PROJECT_SERVICES_RU.md) · [Критерии приёмки трёх стартовых пилотов](ACCEPTANCE_BRIEFS_RU.md) · [Реестр проверяемых доказательств](EVIDENCE.md)
+
+Чтобы зафиксировать scope, достаточно прислать цель, обезличенный пример входа и ограничение, которое нельзя нарушить. Секреты и необезличенные данные в переписке не принимаются.
+
+**Profile artifacts:** [technical portfolio (PDF)](Absamad_Manturov_AI_Technical_Portfolio.pdf) · [русскоязычное проектное резюме (PDF)](Absamad_Manturov_Project_AI_Python_Resume_RU.pdf) · [procurement AI research plan (PDF)](Absamad_Manturov_Procurement_AI_Research_Plan.pdf)
 
 ## Current public work
+
+The three demo repositories below are self-initiated, synthetic proof-of-work. They are not presented as paid client cases. Upstream PRs are open and are not presented as merged contributions.
 
 - [GigaChat Python SDK PR #117](https://github.com/ai-forever/gigachat/pull/117) — **open, awaiting maintainer review**; typed sync/async support for `POST /filter/check`; 490 tests, Ruff and mypy passed locally.
 - [GigaChat Python SDK PR #118](https://github.com/ai-forever/gigachat/pull/118) — **open, awaiting maintainer review**; closes issue #79 with complete ContextVar/header mappings, lifecycle guidance, and an explicit boundary between SDK behavior and application tracing conventions.
