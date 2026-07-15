@@ -7,10 +7,21 @@ I build reproducible evaluation, reliability, and automation tooling for Russian
 ## Current public work
 
 - [GigaChat Python SDK PR #117](https://github.com/ai-forever/gigachat/pull/117) — **open, awaiting maintainer review**; typed sync/async support for `POST /filter/check`; 490 tests, Ruff and mypy passed locally.
+- [GigaChat Python SDK PR #118](https://github.com/ai-forever/gigachat/pull/118) — **open, awaiting maintainer review**; closes issue #79 with complete ContextVar/header mappings, lifecycle guidance, and an explicit boundary between SDK behavior and application tracing conventions.
 - [Yandex AI Studio SDK PR #235](https://github.com/yandex-cloud/yandex-ai-studio-sdk/pull/235) — **open, awaiting maintainer review**; backward-compatible per-attempt retry timeout; 233 tests passed locally.
 - [ruagent-compat](https://github.com/Absamad-dew/ruagent-compat) — executable provider-neutral contracts for reliable tool-using agents.
-- [ru-agent-eval-kit](https://github.com/Absamad-dew/ru-agent-eval-kit) — 22 synthetic MCP security and reliability scenarios, raw traces, JSON/Markdown/JUnit exports and CI.
-- [price-intelligence-demo](https://github.com/Absamad-dew/price-intelligence-demo) — deterministic CSV/XLSX normalization, matching, audit trail, quality gate and Excel reporting.
+- [ru-agent-eval-kit](https://github.com/Absamad-dew/ru-agent-eval-kit) — 22 synthetic MCP security and reliability scenarios, raw traces, JSON/Markdown/JUnit exports, Ubuntu/Windows CI.
+- [price-intelligence-demo](https://github.com/Absamad-dew/price-intelligence-demo) — deterministic CSV/XLSX normalization, matching, audit trail, quality gate, independently inspected Excel output, Ubuntu/Windows CI.
+
+## Available for short paid pilots
+
+I can start with a small, testable scope instead of a long integration project:
+
+- **Agent reliability preflight, 2–4 days:** 15–30 client-owned scenarios against a mock or staging endpoint; schema, permission, retry, idempotency and prompt-injection checks; raw traces plus JUnit/JSON/Markdown report.
+- **Serving-correctness audit, 1–3 days:** separate raw output, conservative normalization and semantic task score; token/sampling ablation; explicit stop criteria and negative results.
+- **Price/data reconciliation, 3–5 days:** 2–3 anonymized CSV/XLSX files, acceptance sample, confidence and manual-review queue, auditable Excel/CSV delivery.
+
+The first call is used to freeze the acceptance set, allowed environment and success metrics. No production security testing or external side effects without written scope.
 
 ## Useful collaboration scopes
 
