@@ -1,3 +1,5 @@
+<a href="https://github.com/Absamad-dew/engineering-portfolio"><img src="https://raw.githubusercontent.com/Absamad-dew/engineering-portfolio/main/media/engineering.svg" alt="Absamad Manturov: AI product engineering, agent reliability and systems R&D" width="100%"></a>
+
 # Абсамад Мантуров
 
 **AI Product & Systems Engineer**
