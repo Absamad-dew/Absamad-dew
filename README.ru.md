@@ -1,43 +1,38 @@
-<a href="https://github.com/Absamad-dew/engineering-portfolio"><img src="https://raw.githubusercontent.com/Absamad-dew/engineering-portfolio/main/media/engineering.svg" alt="Absamad Manturov: AI product engineering, agent reliability and systems R&D" width="100%"></a>
-
 # Абсамад Мантуров
 
-**AI Product & Systems Engineer**
+Создаю автономные системы для бизнеса и инструменты для производительных вычислений. Мои направления: агенты продаж, организация параллельной инженерной работы, GPU-обработка видео и исследования сжатия.
 
-Создаю AI-продукты: от диалогового интерфейса и бизнес-процессов до надёжного исполнения действий. Фокус — полезный результат, который можно проверить, восстановить после сбоя и объяснить.
+Отвечаю за системные решения, организацию агентской разработки, интеграцию и приёмку работающего продукта.
 
-**[Инженерное портфолио: продукты, демонстрации и проверяемый код →](https://github.com/Absamad-dew/engineering-portfolio)**
+## Основные работы
 
-[English](README.md) · [Email](mailto:absamad.manturov@gmail.com) · [Telegram](https://t.me/Absamad_m)
+| Проект | Что сделал | Посмотреть |
+|---|---|---|
+| **Aster** | Агент продаж и операционной работы с полноценной CRM: общение с клиентами, заказы, счета, записи и задачи команды. Первый прототип собрал за два дня. | [От клиентского вопроса до заказа и счёта](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/aster.md) |
+| **ChronoField** | Точное сжатие видео и хранение связанных вариантов. В опубликованном сравнении на трёх 1080p-источниках: **на 41,37% меньше байт, кодирование в 8,42 раза и декодирование в 4,98 раза быстрее** измеренного lossless AV1. | [Результаты, графики и условия сравнения](https://github.com/Absamad-dew/engineering-portfolio/blob/main/research/README.ru.md) |
+| **CoreBroker** | Координатор тяжёлых задач на Windows: физические ядра, блокировки общих ресурсов, жизненный цикл процессов и измерения. | [Настоящий запуск параллельных задач](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/corebroker.md) |
+| **Video Studio** | Воспроизведение, запись и стерео/VR с нативным D3D12-конвейером, оценкой движения/глубины и передачей GPU-кадров в NVENC. | [Инженерный разбор и измеренные оптимизации](https://github.com/Absamad-dew/dlss5-video-studio/blob/main/ENGINEERING_OVERVIEW_RU.md) |
+| **Tervallis** | Рабочая платформа для исследований: обсуждения проектов, версии задач и MCP-передача поручений. Организовал с её помощью работу 20 агентов. | [От обсуждения до сохранённого результата](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/tervallis.md) |
 
-## Прикладной AI и продукты
+[Все кейсы](https://github.com/Absamad-dew/engineering-portfolio) · [English](README.md)
 
-В [продуктовых кейсах](https://github.com/Absamad-dew/engineering-portfolio#products) представлены **Aster** — диалоговый бизнес-ассистент и CRM, **CoreBroker** — координация ресурсов для параллельной разработки, **Tervallis** — постоянный контекст проектов и агентные/MCP-процессы. Сохранённая проверка Aster v0.55 включает 40 клиентских диалогов с реальной моделью и чтением итоговых бизнес-записей через API. Открыты описания, демонстрации и свидетельства проверок; реализации этих трёх продуктов закрыты.
+## Опыт и подход
 
-| Открытая инженерная работа | Что можно изучить и запустить |
-| --- | --- |
-| [Agent Action Ledger](https://github.com/Absamad-dew/agent-action-ledger) | SQLite-координация внешних действий: scoped idempotency, восстановление после падения процесса, reconciliation и отказ в выдаче receipt после отзыва доступа. |
-| [RU Agent Eval Kit](https://github.com/Absamad-dew/ru-agent-eval-kit) | Русскоязычные агентные задачи с проверкой состояния после повторного открытия SQLite. Сохранённый canary Qwen3 4B выполнил чтение и изменение записи: **3 вызова модели, 2 инструмента, 1 зафиксированный эффект**. |
-| [ruagent-compat](https://github.com/Absamad-dew/ruagent-compat) | Исполняемые контракты инструментов: JSON Schema, permissions, происхождение structured output, ограниченные повторы и подавление конкурентных дубликатов. |
-| [Price Intelligence](https://github.com/Absamad-dew/price-intelligence-demo) | CSV/XLSX поставщиков → сопоставимые цены за базовую единицу → очередь проверки → Excel-отчёт, с разделением валют и fingerprints импорта. |
+Раньше автоматизировал внутреннюю работу **трёх связанных компаний, примерно 15 человек суммарно**. Этот опыт лежит в основе продуктового подхода: связывать удобный интерфейс с реальным заказом, оплатой, задачей или выделенным ресурсом.
 
-Scripted-проверки, синтетические данные и реальные прогоны моделей обозначены отдельно; canary Qwen подтверждает работу адаптера на одной задаче.
+Мои исследования также включают **PTC для JSON и текста, сжатие нейровесов, KV-кеша и видео**. [Другие направления R&D](https://github.com/Absamad-dew/engineering-portfolio/blob/main/research/other-work.md) представлены отдельно от опубликованных замеров ChronoField. Исследовательские реализации закрыты. Aster, CoreBroker и Tervallis показаны через демонстрации и технические кейсы.
 
-## Производительность и systems R&D
+<details>
+<summary>Открытые библиотеки и дополнительные проекты</summary>
 
-| Проект | Инженерный фокус |
-| --- | --- |
-| [DLSS5 Video Studio](https://github.com/Absamad-dew/dlss5-video-studio) | Windows-приложение, соединяющее оценку движения/глубины, native D3D12, ограниченный транспорт кадров, NVENC и сценарии воспроизведения/VR. |
-| [Compression Observatory](https://github.com/Absamad-dew/compression-observatory) | Эксперименты со стандартными кодеками: точное восстановление байтов, исходные замеры времени, взвешенная агрегация, Pareto-анализ и офлайн-отчёт. |
+- [Agent Action Ledger](https://github.com/Absamad-dew/agent-action-ledger): сохранение состояния действий и восстановление при неизвестном внешнем результате.
+- [RU Agent Eval Kit](https://github.com/Absamad-dew/ru-agent-eval-kit): проверка результата агента по состоянию SQLite, включая настоящий прогон модели.
+- [ruagent-compat](https://github.com/Absamad-dew/ruagent-compat): контракты инструментов, права, structured output и регрессии параллельных вызовов.
+- [Compression Observatory](https://github.com/Absamad-dew/compression-observatory): точные round-trip проверки, замеры стандартных кодеков и графики Парето.
+- [Price Intelligence](https://github.com/Absamad-dew/price-intelligence-demo): нормализация прайсов, сравнение внутри валют и очередь проверки неоднозначных строк.
 
-Основатель **ChronoField**, независимого R&D-проекта точного сжатия видео и хранения. [Публичный обзор](https://github.com/Absamad-dew/chronofield-investor-materials) содержит сравнение на трёх Full-HD источниках: **на 41,37% меньше байтов, кодирование быстрее в 8,42 раза, декодирование — в 4,98 раза** относительно проверенного strict-lossless AV1 baseline. Это внутренние измерения на конкретном корпусе; следующий заявленный этап — независимое воспроизведение.
+</details>
 
-[Обзор исследований](https://github.com/Absamad-dew/engineering-portfolio/blob/main/research/README.md) · [Неконфиденциальная презентация для инвесторов](https://github.com/Absamad-dew/chronofield-investor-materials/blob/main/ChronoField-safe-investor-deck.pdf)
+Интересны **AI engineering, агентская инфраструктура, системная разработка и compression R&D**. Рассматриваю удалённую работу и релокацию.
 
-## Работа и сотрудничество
-
-Открыт к ролям в **AI product engineering, надёжности агентов и systems/R&D**: определить процесс, интегрировать систему и принять результат по наблюдаемым изменениям.
-
-Москва · удалённая работа · открыт к релокации.
-
-[absamad.manturov@gmail.com](mailto:absamad.manturov@gmail.com) · [@Absamad_m](https://t.me/Absamad_m)
+[Почта](mailto:absamad.manturov@gmail.com) · [Telegram](https://t.me/Absamad_m)
