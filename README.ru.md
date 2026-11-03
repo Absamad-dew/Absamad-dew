@@ -1,5 +1,7 @@
 # Абсамад Мантуров
 
+[Посмотреть интерактивные демо](https://absamad-dew.github.io/engineering-portfolio/demos/#project=aster&lang=ru) · [Решения и проверки](https://github.com/Absamad-dew/engineering-portfolio/blob/main/docs/decision-stories.md) · [Хронология разработки](https://github.com/Absamad-dew/engineering-portfolio/blob/main/docs/working-with-agents.md#dated-artifacts)
+
 Создаю автономные системы для бизнеса и инструменты для производительных вычислений. Мои направления: агенты продаж, организация параллельной инженерной работы, GPU-обработка видео и исследования сжатия.
 
 Отвечаю за системные решения, организацию агентской разработки, интеграцию и приёмку работающего продукта.

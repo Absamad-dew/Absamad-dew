@@ -1,5 +1,7 @@
 # Absamad Manturov
 
+[Explore interactive demos](https://absamad-dew.github.io/engineering-portfolio/demos/) · [Decisions and checks](https://github.com/Absamad-dew/engineering-portfolio/blob/main/docs/decision-stories.md) · [Delivery evidence](https://github.com/Absamad-dew/engineering-portfolio/blob/main/docs/working-with-agents.md#dated-artifacts)
+
 I build autonomous business software and performance-focused systems. My work spans sales agents, tools for running parallel engineering workloads, GPU video processing and compression research.
 
 I lead system design, coordinate agent-assisted implementation and take the product through integration and end-to-end acceptance.
