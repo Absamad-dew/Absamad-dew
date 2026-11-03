@@ -10,7 +10,7 @@
 
 ## Delivery and upstream work
 
-- **Business automation:** built and introduced tools for three related businesses with around 15 people in total. Linked customer enquiries, pricing and CRM; automated cutting preparation and artwork checks. [Field results](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/business-automation.md).
+- **Business automation, 2018–2026:** worked with three related businesses with around 15 people in total. Built tools for cutting preparation and artwork checks, then connected customer enquiries, pricing and CRM. [Field results](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/business-automation.md).
 - **Memanto / LangGraph:** fixed repeated writes to an existing key and added regression coverage. [PR #1495](https://github.com/moorcheh-ai/memanto/pull/1495) was merged, and the change reached [main through #1721](https://github.com/moorcheh-ai/memanto/pull/1721).
 - **Agent infrastructure:** [Tervallis](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/tervallis.md) for project state and MCP handoffs; [CoreBroker](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/corebroker.md) for Windows workload coordination. Public: [ruagent-compat](https://github.com/Absamad-dew/ruagent-compat) and [Agent Action Ledger](https://github.com/Absamad-dew/agent-action-ledger).
 

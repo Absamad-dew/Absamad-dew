@@ -10,7 +10,7 @@
 
 ## Внедрения и открытый вклад
 
-- **Автоматизация бизнеса:** разработал и внедрил инструменты для трёх связанных компаний, около 15 человек суммарно. Связал обращения, расчёт цены и CRM; автоматизировал подготовку раскроя и проверку макетов. [Рабочие кейсы](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/business-automation.md).
+- **Автоматизация бизнеса, 2018–2026:** восемь лет работал с тремя связанными компаниями, около 15 человек суммарно. Разработал инструменты подготовки раскроя и проверки макетов, затем связал обращения, расчёт цены и CRM. [Рабочие кейсы](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/business-automation.md).
 - **Memanto / LangGraph:** исправил повторную запись по существующему ключу и добавил проверки. [PR №1495](https://github.com/moorcheh-ai/memanto/pull/1495) принят, изменение вошло в [main через №1721](https://github.com/moorcheh-ai/memanto/pull/1721).
 - **Агентская инфраструктура:** [Tervallis](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/tervallis.md) для состояния проектов и передачи задач по MCP; [CoreBroker](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/corebroker.md) для координации нагрузок на Windows. Открытый код: [ruagent-compat](https://github.com/Absamad-dew/ruagent-compat) и [Agent Action Ledger](https://github.com/Absamad-dew/agent-action-ledger).
 
