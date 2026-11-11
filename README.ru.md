@@ -1,17 +1,17 @@
 # Абсамад Мантуров
 
-**AI-инженер с восемью годами опыта разработки.** Проектирую агентские системы и нативные приложения, исследую сжатие. Отвечаю за архитектуру, интеграцию и проверку результата.
+AI-инженер с восемью годами опыта разработки. Проектирую агентные системы и веду их от архитектуры до приёмки по рабочим сценариям.
 
-| Работа | Решение и результат | Материалы |
-|---|---|---|
-| **Aster · AI-системы** | Связал клиентский диалог с заказом и счётом в CRM. Для оплаты нужно зафиксированное событие; нестандартные скидки и возвраты идут сотрудникам. Через API проверены результаты 40 сценарных диалогов. | [Кейс и проверка](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/aster.md) |
-| **Video Studio · Открытый код** | Оставил кадры поддерживаемого режима записи на GPU до D3D12/NVENC. В сопоставимом тесте нативный этап вырос с **24,39 до 29,98 FPS**. Для 22.3.0 проверены пакет исходников и лаунчер. | [Код и сборка](https://github.com/Absamad-dew/dlss5-video-studio) · [Релиз 22.3.0](https://github.com/Absamad-dew/dlss5-video-studio/releases/tag/v22.3.0) |
-| **Сжатие · R&D** | ChronoField дал **на 41,37% меньше байт** против strict-lossless AV1 на трёх 1080p-источниках с точным восстановлением RGB. По PTC, нейровесам и KV-кешу есть отдельные замеры. | [Исследования и условия замеров](https://github.com/Absamad-dew/engineering-portfolio/blob/main/research/README.ru.md) |
+| Работа | Результат |
+| --- | --- |
+| **Aster** | Спроектировал путь от обращения до сохранённого заказа и счёта, правила обработки оплаты и передачи исключений сотруднику. [Кейс и проверки](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/aster.ru.md) |
+| **Автоматизация бизнеса** | Разработал и внедрил инструменты для трёх связанных компаний. По рабочей оценке, первый ответ клиенту занимал около двух минут вместо ожидания до часа. [Опыт 2018–2026](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/business-automation.md) |
+| **PTC и ChronoField** | PTC Simbol превзошёл по среднему RGB PSNR десять базовых пресетов SPCP на 30 фото CLIC 2025 при лимите 1,6 бит/пиксель. PTC Web дал архивы на 21,85% меньше Brotli 11 на 125 веб-ресурсах. [Девять исследовательских кейсов](https://github.com/Absamad-dew/engineering-portfolio/blob/main/research/recent-results.ru.md) |
+| **Tervallis** | Организовал работу около 20 агентов и проверил полный цикл MCP с возвратом результата в обсуждение проекта. [Кейс платформы](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/tervallis.md) |
 
 ## Внедрения и открытый вклад
 
-- **Автоматизация бизнеса, 2018–2026:** восемь лет работал с тремя связанными компаниями, около 15 человек суммарно. Разработал инструменты подготовки раскроя и проверки макетов, затем связал обращения, расчёт цены и CRM. [Рабочие кейсы](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/business-automation.md).
-- **Memanto / LangGraph:** исправил повторную запись по существующему ключу и добавил проверки. [PR №1495](https://github.com/moorcheh-ai/memanto/pull/1495) принят, изменение вошло в [main через №1721](https://github.com/moorcheh-ai/memanto/pull/1721).
-- **Агентская инфраструктура:** [Tervallis](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/tervallis.md) для состояния проектов и передачи задач по MCP; [CoreBroker](https://github.com/Absamad-dew/engineering-portfolio/blob/main/projects/corebroker.md) для координации нагрузок на Windows. Открытый код: [ruagent-compat](https://github.com/Absamad-dew/ruagent-compat) и [Agent Action Ledger](https://github.com/Absamad-dew/agent-action-ledger).
+- **Video Studio.** В сопоставимом тесте D3D12/NVENC скорость нативного этапа записи выросла с 24,39 до 29,98 FPS. [Исходники и измерения](https://github.com/Absamad-dew/dlss5-video-studio/blob/main/ENGINEERING_OVERVIEW_RU.md) · [Релиз 22.3.0](https://github.com/Absamad-dew/dlss5-video-studio/releases/tag/v22.3.0)
+- **Memanto / LangGraph.** Исправление повторной записи и регрессионную проверку приняли в основной код проекта. [Принятый PR](https://github.com/moorcheh-ai/memanto/pull/1495) · [Интеграция в main](https://github.com/moorcheh-ai/memanto/pull/1721)
 
-[Все инженерные кейсы](https://github.com/Absamad-dew/engineering-portfolio) · [Почта](mailto:absamad.manturov@gmail.com) · [Telegram](https://t.me/Absamad_m) · [English](README.md)
+[Инженерное портфолио](https://github.com/Absamad-dew/engineering-portfolio/blob/main/README.ru.md) · [English](README.md) · [Почта](mailto:absamad.manturov@gmail.com) · [Telegram](https://t.me/Absamad_m)
